@@ -4,12 +4,8 @@ const MainNav = () => {
     <nav className="bg-surface-light shadow-md px-6 py-4 lg:px-[2rem]">
       <div className="flex justify-between items-center">
         <div className="flex flex-col items-center gap-2">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary">
-            <img
-              src="/src/public/assets/logo.png"
-              alt="Logo"
-              className="w-7 h-7 object-contain"
-            />
+          <div className="flex h-20 w-20 items-center justify-center rounded-full ">
+            <img src="/assets/logo.png" alt="Logo" />
           </div>
         </div>
 

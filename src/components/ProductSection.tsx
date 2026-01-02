@@ -4,12 +4,12 @@ const products = [
   {
     name: "Green Detox",
     price: 8.5,
-    image: "/src/assets/green_detox.png",
+    image: "/assets/green_detox.png",
   },
   {
     name: "Berry Blast",
     price: 7.5,
-    image: "/src/assets/Berry_Blast.png",
+    image: "/assets/Berry_Blast.png",
   },
 ];
 

@@ -2,7 +2,7 @@ import Header from "@/components/header/Header";
 import Image from "next/image";
 import { useState } from "react";
 
-const profile = () => {
+const Profile = () => {
   const [userName, setUserName] = useState<string>(" John Doe");
   const changeUserName = (userData: string) => {
     console.log("user", userData);
@@ -14,6 +14,7 @@ const profile = () => {
   return (
     <>
       <Header />
+
       <div
         className={` flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black`}
       >
@@ -75,4 +76,4 @@ const profile = () => {
   );
 };
 
-export default profile;
+export default Profile;

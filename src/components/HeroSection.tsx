@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <section className="px-6 lg:px-20 py-10">
       <img
-        src="/src/assets/img_Hero.png"
+        src="/assets/Acai_Bowl.png"
         className="w-full h-[260px] object-cover rounded-2xl"
       />
 

@@ -7,16 +7,16 @@ const navLinks = [
 ];
 
 const socialIcons = [
-  { name: "Facebook", icon: "public/icons/bxl-facebook-square.png" },
-  { name: "Instagram", icon: "public/icons/bxl-instagram-alt.png" },
-  { name: "LinkedIn", icon: "public/icons/bxl-linkedin-square.png" },
-  { name: "Tiktok", icon: "public/icons/bxl-tiktok.png" },
-  { name: "Twitter", icon: "public/icons/bxl-twitter.png" },
+  { name: "Facebook", icon: "icons/bxl-facebook-square.png" },
+  { name: "Instagram", icon: "icons/bxl-instagram-alt.png" },
+  { name: "LinkedIn", icon: "icons/bxl-linkedin-square.png" },
+  { name: "Tiktok", icon: "icons/bxl-tiktok.png" },
+  { name: "Twitter", icon: "icons/bxl-twitter.png" },
 ];
 
 const TopNav = () => {
   return (
-    <nav className="bg-[#1EEA0F] flex justify-between items-center px-6 py-3 lg:px-20">
+    <nav className="bg-[#96CD48] flex justify-between items-center px-6 py-3 lg:px-20">
       {/* MENU */}
       <ul className="hidden lg:flex gap-6 text-[12px] font-semibold">
         {navLinks.map((item) => (
