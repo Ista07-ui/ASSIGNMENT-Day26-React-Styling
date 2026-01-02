@@ -3,7 +3,7 @@ import MainNav from "@/components/MainNav";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-40 bg-surface-light shadow">
+    <header className="sticky top-0 z-40 shadow bg-white">
       <TopNav />
       <MainNav />
     </header>

@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 const navLinks = [
-  "Home",
-  "About Us",
-  "Location Us",
-  "Best Seller",
-  "Health Benefits",
+  { name: "Home", href: "/" },
+  { name: "About Us", href: "/#" },
+  { name: "Location Us", href: "/#" },
+  { name: "Best Seller", href: "/#" },
+  { name: "Health Benefits", href: "/#" },
 ];
 
 const socialIcons = [
@@ -16,23 +18,23 @@ const socialIcons = [
 
 const TopNav = () => {
   return (
-    <nav className="bg-[#96CD48] flex justify-between items-center px-6 py-3 lg:px-20">
+    <nav className="bg-primary flex justify-between items-center px-6 py-3 lg:px-20">
       {/* MENU */}
       <ul className="hidden lg:flex gap-6 text-[12px] font-semibold">
         {navLinks.map((item) => (
           <li
-            key={item}
+            key={item.name}
             className="
               px-3 py-2
               cursor-pointer
-              text-[#111111]
+              text-background-dark
               select-none
               transition-colors duration-200
               hover:text-[#5a3522]
               active:text-white
             "
           >
-            {item}
+            <Link href={item.href}>{item.name}</Link>
           </li>
         ))}
       </ul>

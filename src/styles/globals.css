@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #96cd48;
+  --color-background-light: #f6f8f6;
+  --color-background-dark: #102210;
+  --color-surface-light: #ffffff;
+  --color-surface-dark: #1a2c1a;
+
+  --font-display: var(--font-jakarta);
+
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-2xl: 2.5rem;
+}
